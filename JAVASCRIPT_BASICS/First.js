@@ -14,7 +14,7 @@ console.log(student["fname"]) */
 console.log(name); */
 
 let a=prompt("Enter number to check the divisibility by 5");
-if (a/5==0){
+if (a%5==0){
     console.log("yes");
 }
 else{
