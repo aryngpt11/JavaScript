@@ -9,3 +9,9 @@ let obj={
 //console.log(obj["item"]);
 console.log("this is a",obj.item,"of ",obj.price,"ruppess")// using string
 console.log(`this is a ${obj.item} of ${obj.price} ruppess`)// using tempplate literals
+
+
+
+let str="aryan";
+//console.log(str.toUpperCase());
+console.log(str.toLocaleUpperCase());
