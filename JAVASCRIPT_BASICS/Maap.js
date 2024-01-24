@@ -12,3 +12,11 @@ let evenArr=arr.filter((val)=>{
     return val%2===0;
 });
 console.log(evenArr);
+
+//reduce method
+
+let arr1=[1,2,3,4];
+const output=arr1.reduce((res,curr)=>{
+    return res+curr;
+});
+console.log(output);
