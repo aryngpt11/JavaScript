@@ -12,3 +12,22 @@ function CountVowels(str) {
 }
 
 CountVowels("Aryan");
+
+
+//using arrow function
+
+const counvowels=(str)=>{
+    str = str.toLowerCase(); 
+    let countt = 0;
+    
+    for (const c of str) {
+        if (c === "a" || c === "e" || c === "i" || c === "o" || c === "u") {
+            countt++;
+        }
+    }
+    
+    return countt;
+}
+let b=counvowels("Aarav");
+console.log(b);
+
