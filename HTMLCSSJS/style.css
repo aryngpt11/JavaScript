@@ -1,6 +1,6 @@
-h1{
+.heading{
     color: blue;
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
     background-color: yellow;
 }
 body{
