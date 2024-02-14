@@ -15,7 +15,7 @@ div.style.fontSize="22px"
 div.innerText="Hello"
 console.log(div) */
 
-let btn=document.createElement("button");
+/* let btn=document.createElement("button");
 btn.innerText="click Me";
 console.log(btn);
 let div=document.querySelector("div");
@@ -27,4 +27,19 @@ document.querySelector("body").prepend(newHeading);
 let para=document.querySelector("p");
 para.remove();
 
-newHeading.remove();
+newHeading.remove(); */
+
+//practce question
+
+let newbtn=document.createElement("button");
+newbtn.innerText="Click Me";
+newbtn.style.color="White";
+newbtn.style.backgroundColor="red";
+document.querySelector("body").prepend(newbtn)
+
+
+//ques2
+
+let para=document.querySelector("p");
+para.getAttribute("class")
+console.log(para)
